@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Felipe Toledo</title>
+    <link rel="icon" type="image/x-icon" href="../imagens/head_img.png">
+    <link rel="stylesheet" type="text/css" href="arquivo-css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5f299b32b1.js" crossorigin="anonymous"></script>
+    <script src="jscript.js"></script>
+
+</head>
+
+<body>
+    <div>
+        <button type="button" id="btnCont" class="openbtn" onclick="openContact()" alt="Abrir contatos"><i
+                class="fab fa-solid fa-user fa-2x"></i></button>
+    </div>
+
+    <div>
+        <div id="btnnav" class="container navbtn" onclick="openNav()">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <div class="nonav" id="navbarS">
+            <a href="#about" alt="Sobre">Sobre</a>
+            <a href="#project" alt="Projetos">Projetos</a>
+            <a href="#hability" alt="Habilidades">Habilidades</a>
+            <div class="logo">
+                <img id="logo-nav" src="../imagens/logo.png" alt="Felipe Toledo">
+            </div>
+        </div>
+        </button>
+    </div>
+    <section class="capa">
+        <div class="img-capa">
+        </div>
+        <div class="text-capa">
+            <h1>Olá sou o <strong>Felipe Toledo!</strong></h1>
+            <p>
+                Sou formado em tecnologia da informação na área de desenvolvimento de sistemas.
+                No momento estou cursando o segundo semestre do curso de Ciência de dados e Inteligência Artificial no
+                IESB.
+            </p>
+        </div>
+    </section>
+
+
+    <section id="main">
+        <div id="diagonal-line" class="line"></div>
+        <div id="diagonal-line1" class="line"></div>
+        <div id="diagonal-line2" class="line"></div>
+        <div id="diagonal-line3" class="line"></div>
+        <div id="diagonal-line4" class="line"></div>
+        <div id="diagonal-line5" class="line"></div>
+        <div id="diagonal-line6" class="line"></div>
+        <div id="diagonal-line7" class="line"></div>
+        <div id="diagonal-line8" class="line"></div>
+        <section class="sec sobre" id="about">
+            <div>
+                <h1>Um pouco de mim</h1>
+
+                <div class="exp esquerda">
+                    <div class="logo">
+                        <img id="ifb-logo" src="../imagens/IFB-logo.png" alt="IFB">
+                    </div>
+                    <div style="display: flex;">
+                        <p id="ifb">
+                            Cursei o ensino médio técnico em um Instituto Federal, o que me abriu novos horizontes.
+                            O curso técnico foi o de desenvolvimento de sistemas. Aprendi muito como pessoa
+                            e como profissional. Tive a oportunidade de
+                            participar de um projeto de iniciação científica, onde eu descobri minha paixão pela área de
+                            Ciência de Dados. Também participei de outros dois projetos na área.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="exp direita">
+                    <p id="iesb">
+                        Agora estou no curso de Ciência de dados e Inteligência Artificial, onde estou aprofudando o meu
+                        conhecimento na área de Ciência de dados. Adoro a área, existem muitos projetos a serem
+                        desenvolvidos, o que me desperta a aprimorar meu conhecimento.
+                    </p>
+                    <div class="logo">
+                        <img id="iesb-logo" src="../imagens/iesb-logo.png" alt="iesb-logo">
+                    </div>
+                </div>
+
+                <div class="exp esquerda" id="ultimo">
+                    <div class="logo">
+                        <img id="me-logo" src="../imagens/head_img.png" alt="logo">
+                    </div>
+                    <p>
+                        Eu adoro a área da tecnologia, nela eu posso me expressar de uma maneira única, consigo
+                        demonstrar meus pensamentos,
+                        meus desejos, minhas soluções, meus problemas, meus sonhos. É uma área que possui muitos
+                        caminhos, e me vejo em vários
+                        deles.
+                        Sou muito agradecido
+                        por desde pequeno ter a oportunidade de conhecer a área da tecnologia.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec projetos" id="project">
+            <div>
+                <h1>Meu portfólio</h1>
+
+                <div class="projetos-em">
+
+                    <h2>Projetos no Ensino Médio</h2>
+
+                    <ul>
+                        <li><button type="button" class="collapsible">Robot Vision</button>
+                            <div class="content">
+                                <p>O projeto é de iniciação cientifíca e foi desenvolvido com o incentivo do IFB. Foi
+                                    desenvolvido um
+                                    carrinho autônomo, com uma câmera para identificar e classificar resíduos, e com um
+                                    braço para recolher os mesmos.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li><button type="button" class="collapsible">Previsão do diagnóstico de hepatite</button>
+                            <div class="content">
+                                <p>Colaborei em um projeto de pesquisa. O objetivo era utilizar algoritmos de ML para
+                                    prever o diagnóstico clínico de pessoas com suspeita de hepatite. Infelizmente, a
+                                    aprovação
+                                    do artigo não foi aceita. Aprendi muito durante esse período, trabalhei com dados
+                                    reais, e como
+                                    há problemas em bases reais, e como podemos lidar com estes problemas</p>
+                            </div>
+                        </li>
+                        <li><button type="button" class="collapsible">Análise de Tweets</button>
+                            <div class="content">
+                                <p>Colaborei em um artigo, o objetivo era descobrir se é possível prever uma epidemia
+                                    por
+                                    meio das redes sociais. Houve a mineração de tweets que são os posts no Twitter, uma
+                                    das grandes redes sociais.
+                                    Meu papel foi desenvolver o algoritmo responsável pela previsão sobre o que é o
+                                    post, utilizei ferramentas de processamento
+                                    de linguagem natural, no caso utilizei a biblioteca NLTK. Segue o link do
+                                    repositório no github.</p>
+                                <a href="https://github.com/SnowsToledo/tweet_analysis" alt="link">Notebook de análise
+                                    dos
+                                    tweets</a>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="projetos-facul">
+
+                    <h2>Projetos Faculdade</h2>
+                    <ul>
+                        <li><button type="button" class="collapsible">Análise
+                                da base de dados do Enem 2020</button>
+                            <div class="content">
+                                <p>Na matéria de Introdução a Ciência de dados, o trabalho final da matéria era fazer
+                                    uma análise de uma base de dados a nossa escolha,
+                                    então escolhi uma base de dados do Enem 2020 já pré-processada, houve algumas
+                                    transformações dos dados. Segue o link do repositório no github.
+                                </p>
+                                <a href="https://github.com/SnowsToledo/Analise_enem2020/blob/master/ENEM_ANALISE.ipynb"
+                                    alt="link">Análise
+                                    da base de dados do Enem 2020
+                                </a>
+                            </div>
+                        </li>
+                        <li><button type="button" class="collapsible">Competição do Titanic no
+                                kaggle</button>
+                            <div class="content">
+                                <p>Na matéria de Introdução a Ciência de dados, o professor pediu para que fizessemos o
+                                    pré-processamento
+                                    e utilizar algoritmos de Machine Learning de predição. Segue o link do repositório
+                                    no github.
+                                </p>
+                                <a href="https://github.com/SnowsToledo/Titanic_competition" alt="link">Competição
+                                    do Titanic no Kaggle</a>
+                            </div>
+                        </li>
+                        <li><button type="button" class="collapsible">Análise dos municípios do
+                                Brasil</button>
+                            <div class="content">
+                                <p>Na matéria de Introdução a Ciência de dados, fizemos uma análise exploratória dos
+                                    dados para desenvolver
+                                    habilidades para a visualização dos dados.
+                                </p>
+                                <a href="https://github.com/SnowsToledo/Analysis_county" alt="link">Análise dos
+                                    municípios do
+                                    Brasil</a>
+                            </div>
+                        </li>
+                        <li><button type="button" class="collapsible">Utilizando fuzzy</button>
+                            <div class="content">
+                                <p>Na matéria de Introdução a Inteligência Artificial, fizemos um projeto na área de
+                                    Cidades inteligentes
+                                    e no meio do processo precisamos contabilizar o fluxo de pessoas, então utilizamos
+                                    fuzzy para ter uma
+                                    probabilidade do fluxo de pessoas. Porém é um projeto teórico e não colocamos nada
+                                    em prática.
+                                </p>
+                                <a href="https://github.com/SnowsToledo/fuzzy_fluxo" alt="link">Utilizando fuzzy para
+                                    predição do
+                                    fluxo</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="projetos-pessoais">
+
+                    <h2>Projetos pessoais</h2>
+
+                    <ul>
+                        <li><button type="button" class="collapsible">Dashboards do intensivão de Power BI</button>
+                            <div class="content">
+                                <p>Houve um intensivão de Power BI oferecido pela hashtag treinamentos, estes são os
+                                    meus resultados das aulas</p>
+                                <div class="powerbi">
+                                    <a href="https://app.powerbi.com/view?r=eyJrIjoiMmU2YjI4YzUtMTA3NC00ZTM0LWEzYTUtNTg0M2RjYjAxNzFjIiwidCI6IjJhMzE1N2UzLTQwNDctNDRjZC05NzQ2LTgwMjJhZGRiZGEzZiJ9&pageName=ReportSection"
+                                        alt="link">Aula
+                                        1</a>
+                                    <a href="https://app.powerbi.com/view?r=eyJrIjoiODVkNDc4Y2MtMzU0OC00MGZlLWE0N2ItYzZkNDAyZWRlOWZkIiwidCI6IjJhMzE1N2UzLTQwNDctNDRjZC05NzQ2LTgwMjJhZGRiZGEzZiJ9&pageName=ReportSection"
+                                        alt="link">Aula
+                                        2</a>
+                                    <a href="https://app.powerbi.com/view?r=eyJrIjoiNjhiZmYyODMtZTc5ZC00ZTVlLTk5YWQtOThjMzA5OGE4MTI4IiwidCI6IjJhMzE1N2UzLTQwNDctNDRjZC05NzQ2LTgwMjJhZGRiZGEzZiJ9&pageName=ReportSectionb4ad9a504015e6081bab"
+                                        alt="link">Aula
+                                        3</a>
+                                    <a href="https://app.powerbi.com/view?r=eyJrIjoiNjRlM2E3ZDktYWJmMi00NDhkLTlmYzQtNjdlZjNhM2I1ODhhIiwidCI6IjJhMzE1N2UzLTQwNDctNDRjZC05NzQ2LTgwMjJhZGRiZGEzZiJ9&pageName=ReportSection112828191c578d1c89e1"
+                                        alt="link">Aula
+                                        4</a>
+                                </div>
+                            </div>
+                        </li>
+                </div>
+                </ul>
+
+            </div>
+            </div>
+
+
+        </section>
+
+        <section class="sec habilidades" id="hability">
+            <div>
+
+                <h1 id="linha-titulo">Habilidades</h1>
+                <ul>
+                    <li class="habilidade">Python<div class="nivel">
+                            <div class="inter">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="habilidade">SQL<div class="nivel">
+                            <div class="basico">
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="habilidade">Java<div class="nivel">
+                            <div class="inter">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="habilidade">ETL<div class="nivel">
+                            <div class="inter">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="habilidade">Pandas<div class="nivel">
+                            <div class="inter">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="habilidade">Matplotlib<div class="nivel">
+                            <div class="inter">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="habilidade">Seaborn<div class="nivel">
+                            <div class="inter">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="habilidade">Arduino<div class="nivel">
+                            <div class="basico">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="habilidade">Visão computacional<div class="nivel">
+                            <div class="basico">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="habilidade">Machine Learning<div class="nivel">
+                            <div class="inter">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="habilidade">OpenCV<div class="nivel">
+                            <div class="basico">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="habilidade">NLP/NLTK<div class="nivel">
+                            <div class="inter">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="habilidade">Scikit-Learn<div class="nivel">
+                            <div class="inter">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="habilidade">GIT<div class="nivel">
+                            <div class="basico">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="habilidade">HTML<div class="nivel">
+                            <div class="basico">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="habilidade">CSS<div class="nivel">
+                            <div class="basico">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="habilidade">POO<div class="nivel">
+                            <div class="inter">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="habilidade">Metódos ágeis<div class="nivel">
+                            <div class="basico">
+                            </div>
+                        </div>
+                    <li class="habilidade">Trelo<div class="nivel">
+                            <div class="basico">
+                            </div>
+                        </div>
+
+                    </li>
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </section>
+    </section>
+
+    <section class="bars">
+        <div class="sidebar" id="sidebarC">
+            <button class="closebtn" style="color: #D3D5FF;" alt="Fechar" onclick="openContact()"><i
+                    class="fas fa-solid fa-xmark"></i></button>
+            <a href="https://www.linkedin.com/in/felipetoledoneves/" alt="Linkedin"><i class="fa-brands fa-linkedin"
+                    style="color: #D3D5FF;"></i></a>
+            <a href="https://github.com/SnowsToledo/" alt="github"><i class="fa-brands fa-square-github"
+                    style="color: #D3D5FF;"></i></a>
+            <a href="mailto:felipe.toledo.neves@gmail.com?" alt="E-mail"><i class="fas fa-solid fa-envelope"
+                    style="color: #D3D5FF;"></i></a>
+        </div>
+    </section>
+    <footer>
+        <div class="foot">
+            <p>Felipe Toledo&copy;2022. Todos os direitos são reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
